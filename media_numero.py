@@ -1,17 +1,20 @@
 class Comparador:
-    def __init__(self, a, b, c):
+       def __init__(self, a, b, c):
+        # Atribui os valores recebidos aos atributos do objeto
         self.a = a
         self.b = b
         self.c = c
-
+    
     def comparar(self):
+        # Método para comparar se todos os valores são iguais
         return self.a == self.b == self.c
     
     def mostrar_resultado(self):
+        # Mostra o resultado da comparação
         print(self.comparar())
 
-
-    # Uso
 if __name__ == '__main__':
-        comp = Comparador(1, 1, 1)
-        comp.mostrar_resultado() # Imprime True
+    # Cria uma instância do Comparador com valores iguais
+    comp = Comparador(1, 1, 1)
+    # Chama o método para mostrar o resultado
+    comp.mostrar_resultado()  # Imprimirá True

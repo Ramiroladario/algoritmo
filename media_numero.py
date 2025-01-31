@@ -1,5 +1,6 @@
 class Comparador:
-       def __init__(self, a, b, c):
+    # Correção dos asteriscos duplos na definição do método __init__
+    def __init__(self, a, b, c):
         # Atribui os valores recebidos aos atributos do objeto
         self.a = a
         self.b = b
@@ -13,6 +14,8 @@ class Comparador:
         # Mostra o resultado da comparação
         print(self.comparar())
 
+# Correção da indentação do bloco de uso
+# Correção dos asteriscos duplos no __name__
 if __name__ == '__main__':
     # Cria uma instância do Comparador com valores iguais
     comp = Comparador(1, 1, 1)
